@@ -5,7 +5,7 @@ export class User {
 
   public static readonly BIRTH_YEAR: number = 2025;
 
-  constructor(firstname: string, lastname: string, age: number) {
+  constructor(firstname: string = "", lastname: string = "", age: number = 0) {
     this.firstname = firstname;
     this.lastname = lastname;
     this.age = age;
